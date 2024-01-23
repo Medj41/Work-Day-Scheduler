@@ -8,11 +8,6 @@ let cell3;
 
 let mainTable = $('.container');
 
-// mainTable.attr('id', 'calendar');
-// let TodaysPlan = $('calendar');
-// let table = $('<table>');
-// table.attr('id','Today');
-// TodaysPlan.append(table);
 let table = $('<table>');
 table.addClass('table');
 mainTable.append(table);
@@ -96,30 +91,13 @@ for (let i = dayStart; i <= endayEnd; i++) {
 
 
   cell3.on('click', function saveInput() {
-    // let input = $('#task')
-
-    emptyInput = innerCell2.val();
-
-    localStorage.setItem('emptyInput', emptyInput)
-
-    savedValue = (localStorage.getItem('emptyInput'));
-
-    console.log(emptyInput)
-
-    console.log(savedValue);
-
-    innerCell2.val(savedValue);
-
-
-
+      let value = $(this).siblings('.description').children('textarea').val();
+    localStorage.setItem(hour,value);
   });
 
-  savedValue = (localStorage.getItem('emptyInput'));
-  innerCell2.val(savedValue);
-
+  $(cell2).children('textarea').val(localStorage.getItem(hour));
 }
 
-//inputValue = localStorage.getItem('inputValue');
 
 
 
