@@ -4,12 +4,14 @@ This Calendar Planner application is designed to help users manage their daily s
 
 - **Display Current Day:**
   - The application displays the current day prominently at the top when the user opens the planner.
+![header](https://github.com/Medj41/Work-Day-Scheduler/assets/127996990/296de84f-a4ae-4bd1-9629-f69e69218ff8)
 
 - **Timeblocks for Business Hours:**
   - As the user scrolls down, the application presents timeblocks for standard business hours, providing a clear view of the day.
 
 - **Color-coded Timeblocks:**
   - Each timeblock is color-coded to indicate whether it is in the past, present, or future, enhancing the user's understanding of the schedule.
+![body](https://github.com/Medj41/Work-Day-Scheduler/assets/127996990/a6a48b59-d63b-4c9d-b5b1-7e3f37460c90)
 
 - **Event Entry:**
   - Users can enter events easily by clicking on a specific timeblock, making it convenient to manage their daily tasks.
